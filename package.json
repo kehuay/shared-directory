@@ -1,0 +1,11 @@
+{
+  "name": "mf-vite-shared-directory",
+  "version": "1.0.0",
+  "description": "Module Federation Vite + React is now possible",
+  "scripts": {
+    "dev": "pnpm --filter shared-directory-* dev",
+    "build": "pnpm --filter shared-directory-* build",
+    "preview": "pnpm --filter shared-directory-* preview"
+  },
+  "license": "ISC"
+}
